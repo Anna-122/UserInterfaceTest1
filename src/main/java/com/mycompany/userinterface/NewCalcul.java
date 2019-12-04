@@ -10,7 +10,7 @@ import java.util.regex.*;
  * @author anna
  */
 public class NewCalcul extends javax.swing.JFrame {
- int a,b;
+double a,b;
  String opera;
     /**
      * Creates new form NewCalcul
@@ -61,6 +61,7 @@ public class NewCalcul extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jButton1.setFont(new java.awt.Font("URW Chancery L", 1, 36)); // NOI18N
         jButton1.setText("AC");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -73,6 +74,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setFont(new java.awt.Font("URW Chancery L", 1, 36)); // NOI18N
         jButton2.setText("Back");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -85,6 +87,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setFont(new java.awt.Font("URW Chancery L", 1, 24)); // NOI18N
         jButton3.setText("log");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -97,6 +100,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton4.setText("!");
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -109,6 +113,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setFont(new java.awt.Font("URW Chancery L", 1, 24)); // NOI18N
         jButton5.setText("sin");
         jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -121,6 +126,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setFont(new java.awt.Font("URW Chancery L", 1, 24)); // NOI18N
         jButton6.setText("cos");
         jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -133,6 +139,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setFont(new java.awt.Font("URW Chancery L", 1, 24)); // NOI18N
         jButton7.setText("tan");
         jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -145,6 +152,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton8.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton8.setText("7");
         jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -157,6 +165,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton9.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton9.setText("8");
         jButton9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -169,6 +178,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton10.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton10.setText("9");
         jButton10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -181,6 +191,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton11.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton11.setText("*");
         jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -193,6 +204,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton12.setFont(new java.awt.Font("Ubuntu", 1, 24)); // NOI18N
         jButton12.setText("/");
         jButton12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -205,6 +217,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton13.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton13.setText("4");
         jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -217,6 +230,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton14.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton14.setText("5");
         jButton14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -229,6 +243,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton15.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton15.setText("6");
         jButton15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -241,6 +256,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton16.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton16.setText("1");
         jButton16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -253,6 +269,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton17.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton17.setText("2");
         jButton17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -265,6 +282,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton19.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton19.setText("3");
         jButton19.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -277,6 +295,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton20.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton20.setText("0");
         jButton20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -289,13 +308,20 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton21.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton21.setText(".");
         jButton21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton21MouseClicked(evt);
             }
         });
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
 
+        jButton22.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton22.setText("+");
         jButton22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -308,6 +334,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton23.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton23.setText("-");
         jButton23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -320,6 +347,7 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton24.setFont(new java.awt.Font("Ubuntu Condensed", 1, 24)); // NOI18N
         jButton24.setText("%");
         jButton24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -332,6 +360,8 @@ public class NewCalcul extends javax.swing.JFrame {
             }
         });
 
+        jButton25.setFont(new java.awt.Font("Ubuntu Condensed", 1, 36)); // NOI18N
+        jButton25.setForeground(new java.awt.Color(1, 1, 1));
         jButton25.setText("=");
         jButton25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -352,7 +382,7 @@ public class NewCalcul extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(218, 218, 218)
-                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 117, Short.MAX_VALUE))
+                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
@@ -371,52 +401,52 @@ public class NewCalcul extends javax.swing.JFrame {
                             .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(29, 29, 29)
-                                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
                                 .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addGap(24, 24, 24)
+                                .addComponent(jButton19, javax.swing.GroupLayout.DEFAULT_SIZE, 78, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap())
+                                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(17, 17, 17)))
+                .addGap(49, 49, 49))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton1)
-                    .addComponent(jButton2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(jButton2, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4)
@@ -437,9 +467,9 @@ public class NewCalcul extends javax.swing.JFrame {
                     .addComponent(jButton15)
                     .addComponent(jButton22)
                     .addComponent(jButton23))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton16)
                             .addComponent(jButton17)
@@ -449,10 +479,8 @@ public class NewCalcul extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jButton20)
                             .addComponent(jButton21)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 56, Short.MAX_VALUE))
+                    .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 4, Short.MAX_VALUE))
         );
 
         pack();
@@ -558,8 +586,8 @@ jTextArea1.setText(w);// TODO add your handling code here:
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
 String []q = jTextArea1.getText().split("\\+|-|\\*|/");
-a = Integer.parseInt(q[0]);
-b = Integer.parseInt(q[1]);
+a = Double.parseDouble(q[0]);
+b = Double.parseDouble(q[1]);
 if(jTextArea1.getText().contains("+")){
   jTextArea1.setText(String.valueOf(a+b)); 
       }else if(jTextArea1.getText().contains("-") ){
@@ -571,29 +599,7 @@ if(jTextArea1.getText().contains("+")){
                   }else{
                      System.out.print("Повторите попытку");
                   }
-   
 
-
-
-/*int a=Integer.parseInt(q[0]);
-int b=Integer.parseInt(q[1]);
-switch (jTextArea1. getText()) {
-        case "+":
-           n=a+b;
-            break;
-       case "-":
-           n=a-b;
-            break;
-       case "/": 
-           n=a/b;
-            break;
-         case "*": 
-             n=a*b;
-            break;
-        default:
-            break;
-    }
-*/
 
     }//GEN-LAST:event_jButton25ActionPerformed
 
@@ -664,9 +670,9 @@ jTextArea1.append("0");         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-            int n=Integer.parseInt(jTextArea1.getText());
-        int result = 1;
-        for (int i = 1; i <=n; i ++){
+            double n=Integer.parseInt(jTextArea1.getText());
+        double result = 1;
+        for (double i = 1; i <=n; i ++){
 	        result = result*i;
         }
 	 jTextArea1.setText(String.valueOf(result));       // TODO add your handling code here:
@@ -703,6 +709,10 @@ jTextArea1.append("-");        // TODO add your handling code here:
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
 jTextArea1.append("/");        // TODO add your handling code here:
     }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+   jTextArea1.append(".");      // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
     
     /**
      * @param args the command line arguments
